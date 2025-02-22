@@ -1,3 +1,116 @@
+# Weather Dashboard
+
+A modern, responsive weather dashboard built with React that provides current weather conditions and a 5-day forecast for any city worldwide.
+
+![Weather Dashboard Screenshot](screenshot.png)
+
+## Features
+
+- 🔍 Real-time weather search by city name
+- 🌡️ Current weather conditions including:
+  - Temperature
+  - Humidity
+  - Weather description
+  - Weather icon
+- 📅 5-day weather forecast
+- 🎠 Interactive forecast carousel
+- ⚡ Loading states and error handling
+- 📱 Responsive design
+- 🔒 Input validation for city names
+
+## Technologies Used
+
+- React.js
+- Axios for API requests
+- OpenWeatherMap API
+- CSS3 for styling
+- Environment variables for secure API key storage
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/weather-dashboard.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd weather-dashboard
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+
+```
+REACT_APP_WEATHER_API_KEY=your_api_key_here
+```
+
+5. Start the development server:
+
+```bash
+npm start
+```
+
+
+## Environment Variables
+
+The application requires the following environment variable:
+
+- `REACT_APP_WEATHER_API_KEY`: Your OpenWeatherMap API key
+
+## API Reference
+
+This project uses the OpenWeatherMap API:
+- Current Weather Data: `/weather`
+- 5 Day Forecast: `/forecast`
+
+Get your API key by signing up at [OpenWeatherMap](https://openweathermap.org/api)
+
+## Project Structure
+
+```
+weather-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── WeatherDashboard.jsx
+│   │   ├── WeatherDashboard.css
+│   │   └── LoadingSpinner.jsx
+│   ├── App.js
+│   └── index.js
+├── public/
+├── .env
+└── README.md
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Weather data provided by [OpenWeatherMap](https://openweathermap.org/)
+- Icons from OpenWeatherMap's weather icon set
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
