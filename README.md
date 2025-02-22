@@ -2,7 +2,9 @@
 
 A modern, responsive weather dashboard built with React that provides current weather conditions and a 5-day forecast for any city worldwide.
 
-![Weather Dashboard Screenshot](screenshot.png)
+![Weather Dashboard Screenshot1](https://github.com/YBU666/WEATHER-DASHBOARD/blob/main/public/weather1.png)
+![Weather Dashboard Screenshot2](https://github.com/YBU666/WEATHER-DASHBOARD/blob/main/public/weather2.png)
+![Weather Dashboard Screenshot3](https://github.com/YBU666/WEATHER-DASHBOARD/blob/main/public/weather3.png)
 
 ## Features
 
